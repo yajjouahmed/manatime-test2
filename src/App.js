@@ -1,23 +1,20 @@
-import logo from './logo.svg';
+import Sidebar from './Components/sidebar/Sidebar'
+import Navbar from './Components/navbar/Barnav'
+import Cardabsent from './Components/cardabsent/Cardabsent'
+import Col from 'react-bootstrap/Col';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Col xl={12}>
+        <Navbar/>
+      </Col>
+      <Col xl={12} className="d-flex main">
+        <Sidebar/>
+        <Cardabsent/>
+      </Col>
+
     </div>
   );
 }

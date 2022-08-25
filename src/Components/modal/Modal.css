@@ -1,0 +1,150 @@
+.modal-open .modal 
+{
+    backdrop-filter: blur(3px) !important;
+    width: 92% !important;
+    left: 8.4% !important;
+}
+
+ .modal-backdrop.show 
+{
+    opacity: 0 !important;
+}
+
+.modal-dialog 
+{
+    margin: 0px;
+    border-radius: 0px;
+    height: 100%;
+    border: none;
+    width: 35% !important;
+    max-width: none;
+}
+
+.modal-content 
+{
+    height: 100vh;
+    border-radius: 0px 20px 20px 0px;
+    border: none;
+    background: #f8f9fa ;
+}
+
+.modal-header{
+    height: 48px;
+}
+
+.btn-close{
+    margin-right: 10px !important;
+    background-color: #dbd5d5;
+    padding: 6px !important;
+    font-size: 10px;
+}
+
+.w-box-module a{
+    font-size: 16px;
+    margin: 7px 0px;
+}
+
+.w-box-module{
+    margin: 2px 2px;
+    width: 24%;
+    border-radius: 4px !important;
+}
+
+.w-box-module > div > div{
+    border-radius: 10px;
+}
+
+.border-cursor
+{
+    border: 2px #67aafc solid !important;
+    box-shadow: none !important;
+}
+
+.w-box-module > div > div:hover{
+    box-shadow: 1px 0px 11px -2px #484848;
+    border: 2px #67aafc solid !important;
+}
+
+.text-cursor
+{
+    color: #67aafc;
+}
+
+@media (min-width: 1400px) and (max-width: 2500px)
+{ 
+    .w-box-module{
+        width: 23%;
+        margin: 2px 2px;
+        border-radius: 4px !important;
+    }
+
+    .modal-open .modal 
+    {
+        width: 100% !important;
+        left: 11.3% !important;
+    }
+
+    .modal-dialog 
+    {
+        width: 650px !important;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 1399px)
+{ 
+    .modal-open .modal 
+    {
+        backdrop-filter: blur(3px) !important;
+        width: 100% !important;
+        left: 16.5% !important;
+    }
+
+    .w-box-module a{
+        font-size: 14px;
+    }
+
+    .modal-dialog 
+    {
+        width: 45% !important;
+    }
+}
+
+@media (min-width: 0px) and (max-width: 970px)
+{ 
+    .modal-open .modal 
+    {
+        backdrop-filter: blur(3px) !important;
+        width: 100% !important;
+        left: 50px !important;
+    }
+
+    .modal-dialog 
+    {
+        width: 55% !important;
+    }
+
+    .w-box-module{
+        width: 23.6%;
+    }
+}
+
+@media (max-width: 780px)
+{ 
+    .w-box-module a
+    {
+        font-size: 12px;
+    }
+
+    .modal-dialog 
+    {
+        width: 400px !important;
+    }
+    .w-box-module{
+        width: 23.9%;
+    }
+
+    .Logo-Manatime{
+        width: 220px;
+    }
+}

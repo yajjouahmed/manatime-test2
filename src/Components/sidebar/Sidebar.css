@@ -1,0 +1,46 @@
+.background-sidebar
+{
+    background: linear-gradient(180deg, rgba(37,75,151,1) 0%, rgb(9 74 175) 35%, rgba(61,129,223,1) 100%);
+    padding: 0px;
+    height: 100vh;
+}
+
+.accordion-button
+{
+    padding: 0px ;
+    background: #f8f9fa;
+}
+
+@media (min-width: 0px) and (max-width: 970px)
+{ 
+    .background-sidebar
+    {
+        width: 50px;
+    }
+}
+
+@media (min-width: 950px) and (max-width: 1500px)
+{ 
+    .background-sidebar
+    {
+        height: 100%;
+    }
+}
+
+@media (min-width: 1400px) and (max-width: 1926px) 
+{
+    .col-xxl-1 
+    {
+        width: 11.333333%;
+    }
+
+}
+
+@media (min-width: 1926px) and (max-width: 2500px)
+{ 
+    .col-xxl-1 
+    {
+        flex: 0 0 auto;
+        width: 8.333333%;
+    }
+}
